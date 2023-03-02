@@ -12,6 +12,13 @@
       "skipFiles": [
         "<node_internals>/**"
       ]
+    },
+    {
+      "command": "cds watch --profile hybrid",
+      "name": "SK CAPM Config",
+      "request": "launch",
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
